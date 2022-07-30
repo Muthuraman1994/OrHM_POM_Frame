@@ -51,7 +51,7 @@ public class CommonFunctions {
 		driver.manage().window().maximize();
 		logger.info("Navigating to Application");
 		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 	}
 
 	@AfterSuite
